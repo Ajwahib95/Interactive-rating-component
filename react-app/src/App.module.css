@@ -1,0 +1,17 @@
+.container {
+  width: 410px;
+  height: 415px;
+  background: -webkit-radial-gradient(circle at top, #394f70, #121417);
+  background: -moz-radial-gradient(circle at top, #253243, #121417);
+  background: radial-gradient(circle at top, #253243a2, #15181c);
+  border-radius: 30px;
+  
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 325px;
+    height: 360px;
+    border-radius: 15px;
+  }
+}
